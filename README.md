@@ -17,4 +17,4 @@ That will launch rails server under `5000` and `DynamoDB` local database under `
 
 **Visit website**
 
-    open http://localhost:3000
+    open http://localhost:5000
