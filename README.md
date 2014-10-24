@@ -8,11 +8,13 @@ http://softwaretalks.pl/wp-content/uploads/2014/09/NoSQL-Hackathon-tutorial1.pdf
 **Download all dependencies:**
 
     bundle
-    
+
 **Start server:**
 
-    rails s
-    
+    foreman start
+
+That will launch rails server under `5000` and `DynamoDB` local database under `12345` port.
+
 **Visit website**
 
     open http://localhost:3000
