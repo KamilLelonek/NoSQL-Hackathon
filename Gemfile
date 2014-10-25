@@ -28,6 +28,10 @@ gem 'foreman'
 gem 'dotenv-rails'
 # Dynamoid is an ORM for Amazon's DynamoDB
 gem 'dynamoid'
+# Embed the V8 JavaScript interpreter into Ruby.
+gem 'therubyracer'
+# Twitter bootstrap gem for create layouts
+gem 'twitter-bootstrap-rails'
 
 group :development, :test do
   # Call 'debugger' anywhere in the code to stop execution and get a debugger console
