@@ -1,2 +1,6 @@
 /log
 /tmp
+.env
+.ruby-gemset
+.ruby-version
+.idea

@@ -24,6 +24,10 @@ gem 'puma'
 gem 'aws-sdk'
 # Foreman for running multiple processes
 gem 'foreman'
+# Library to manage env variables
+gem 'dotenv-rails'
+# Dynamoid is an ORM for Amazon's DynamoDB
+gem 'dynamoid'
 
 group :development, :test do
   # Call 'debugger' anywhere in the code to stop execution and get a debugger console
