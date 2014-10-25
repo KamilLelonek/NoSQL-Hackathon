@@ -72,13 +72,9 @@ GEM
     dotenv (1.0.2)
     dotenv-rails (1.0.2)
       dotenv (= 1.0.2)
-    dynamoid (0.7.1)
-      activemodel
-      aws-sdk
-      tzinfo
     erubis (2.7.0)
     execjs (2.2.2)
-    fake_dynamo (0.2.5)
+    fake_dynamo (0.1.3)
       activesupport
       json
       sinatra
@@ -111,6 +107,10 @@ GEM
     net-ssh (2.9.1)
     nokogiri (1.6.3.1)
       mini_portile (= 0.6.0)
+    ocean-dynamo (0.5.7)
+      activemodel (~> 4.0)
+      activesupport (~> 4.0)
+      aws-sdk (~> 1.0)
     pry (0.10.1)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -212,15 +212,14 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  aws-sdk
   capistrano-rails
   coffee-rails (~> 4.0.0)
   dotenv-rails
-  dynamoid
-  fake_dynamo
+  fake_dynamo (= 0.1.3)
   foreman
   jbuilder (~> 2.0)
   jquery-rails
+  ocean-dynamo
   pry-byebug
   puma
   rails (= 4.2.0.beta1)

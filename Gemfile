@@ -20,20 +20,18 @@ gem 'jbuilder', '~> 2.0'
 gem 'rails-html-sanitizer', '~> 1.0'
 # Use Puma as the app server
 gem 'puma'
-# AWS sdk
-gem 'aws-sdk'
 # Foreman for running multiple processes
 gem 'foreman'
 # Library to manage env variables
 gem 'dotenv-rails'
-# Dynamoid is an ORM for Amazon's DynamoDB
-gem 'dynamoid'
+# OceanDynamo is an ORM for Amazon's DynamoDB
+gem 'ocean-dynamo'
 # Embed the V8 JavaScript interpreter into Ruby.
 gem 'therubyracer'
 # Twitter bootstrap gem for create layouts
 gem 'twitter-bootstrap-rails'
 # Fake DynamoDB database
-gem 'fake_dynamo'
+gem 'fake_dynamo', '0.1.3'
 
 group :development, :test do
   # Call 'debugger' anywhere in the code to stop execution and get a debugger console
