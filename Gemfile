@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.0.beta1'
+gem 'rails', '~> 4.1.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0.0.beta1'
 # Use Uglifier as compressor for JavaScript assets
@@ -24,8 +24,8 @@ gem 'puma'
 gem 'foreman'
 # Library to manage env variables
 gem 'dotenv-rails'
-# OceanDynamo is an ORM for Amazon's DynamoDB
-gem 'ocean-dynamo'
+# AWS SDK
+gem 'aws-sdk'
 # Embed the V8 JavaScript interpreter into Ruby.
 gem 'therubyracer'
 # Twitter bootstrap gem for create layouts
