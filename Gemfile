@@ -32,6 +32,8 @@ gem 'therubyracer'
 gem 'twitter-bootstrap-rails'
 # Fake DynamoDB database
 gem 'fake_dynamo', '0.1.3'
+# ReactJS support
+gem 'react-rails'
 
 group :development, :test do
   # Call 'debugger' anywhere in the code to stop execution and get a debugger console
