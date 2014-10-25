@@ -32,10 +32,12 @@ gem 'dynamoid'
 gem 'therubyracer'
 # Twitter bootstrap gem for create layouts
 gem 'twitter-bootstrap-rails'
+# Fake DynamoDB database
+gem 'fake_dynamo'
 
 group :development, :test do
   # Call 'debugger' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug'
+  gem 'pry-byebug'
 
   # Access an IRB console on exceptions page and /console in development
   gem 'web-console', '~> 2.0.0.beta2'
