@@ -1,4 +1,3 @@
 #!/bin/bash
 
-java -Djava.library.path=./lib/DynamoDBLocal_lib -jar ./lib/DynamoDBLocal.jar -port 12345 -dbPath ./tmp/dynamo_db/DB12345
-
+fake_dynamo --port $DYNAMO_DB_PORT
